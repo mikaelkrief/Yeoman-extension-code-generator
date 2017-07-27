@@ -12,7 +12,6 @@
     "generators/taskitem",
     "generators/widget",
     "generators/servicehook"
-
   ],
   "main": "generators/index.js",
   "keywords": [
@@ -30,7 +29,7 @@
     "url": "https://github.com/ALM-Rangers/generator-team-services-extension"
   },
   "dependencies": {
-    "yeoman-generator": "^0.23.0",
+    "yeoman-generator": "^0.24.1",
     "chalk": "^1.0.0",
     "yosay": "^1.0.0"
   },
@@ -49,7 +48,7 @@
     "yo": "^1.8.5",
     "xunit-file": "^1.0.0",
     "snyk": "^1.24.6",
-    "gulp" : "^3.9.1",
+    "gulp": "^3.9.1",
     "gulp-inline-source": "^3.1.0"
   },
   "eslintConfig": {
@@ -61,7 +60,7 @@
   "license": "MIT",
   "scripts": {
     "test": "istanbul cover --report cobertura --report html node_modules/mocha/bin/_mocha -- -R xunit-file && npm run inlinesource",
-    "snyk:test":"snyk test",
+    "snyk:test": "snyk test",
     "inlinesource": "gulp inlinesource"
   }
 }
