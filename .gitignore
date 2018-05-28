@@ -8,3 +8,4 @@ TestsResults
 **/*.sqlite
 xunit.xml
 coverage-inline
+Sync.cmd
