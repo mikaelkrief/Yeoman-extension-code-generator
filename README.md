@@ -1,4 +1,4 @@
-# Team Services extension code generator
+# generator-vsts-extension
 
 ![VSTS](https://almrangers.visualstudio.com/_apis/public/build/definitions/7f3cfb9a-d1cb-4e66-9d36-1af87b906fe9/137/badge) | [![NPM](https://nodei.co/npm/generator-team-services-extension.png?mini=true)](https://www.npmjs.com/package/generator-team-services-extension)
 
@@ -90,7 +90,7 @@ We've included **//TODO:** placeholders in the generated license, thirdpartynoti
 
 Take a look at the information on getting started with extensions, RESTful APIs, SDK, and the marketplace. I
 
-- [Overview](https://www.visualstudio.com/en-us/docs/integrate/extensions/overview)
+- [Overview](https://docs.microsoft.com/en-us/vsts/extend/overview)
 - [RESTful API Library](https://www.visualstudio.com/en-us/docs/integrate/api/overview)
 - [SDK](https://github.com/Microsoft/vss-web-extension-sdk)
 - [VSTS Marketplace](https://marketplace.visualstudio.com/VSTS)
@@ -102,21 +102,6 @@ Take a look at the information on getting started with extensions, RESTful APIs,
  * Yeoman is a person with feelings and opinions, but is very easy to work with.
  * Yeoman can be too opinionated at times but is easily convinced not to be.
  * Feel free to [learn more about Yeoman](http://yeoman.io/).
-
-## Contributions
-
-### Team
-
-We thank the following contributor(s): **Josh Garverick** , **Mikael Krief** and **Hosam Kamel**
-
-### Contributions are welcome
-
-Here is how you can contribute to this project:  
-
-- Submit bugs and help us verify fixes  
-- Submit pull requests for bug fixes and features and discuss existing proposals   
-
-Please refer to [Contribution guidelines](.github/CONTRIBUTING.md) and the [Code of Conduct](.github/COC.md) for more details.
 
 ### Notices
 
@@ -155,4 +140,19 @@ The generated extensions needs these 3 rd libraries
 - [tslint](https://www.npmjs.com/package/tslint)
 - [tslint-loader](https://www.npmjs.com/package/tslint-loader)
 - [webpack](https://www.npmjs.com/package/webpack)
-- [telemetryclient-team-services-extension](https://www.npmjs.com/package/telemetryclient-team-services-extension)
+- [telemetryclient-team-services-extension](https://www.npmjs.com/package/telemetryclient-vsts-extension)
+
+## Contributions
+
+### Team
+
+We thank the following contributor(s): **Josh Garverick** , **Mikael Krief** and **Hosam Kamel**
+
+### Contributions are welcome
+
+Here is how you can contribute to this project:  
+
+- Submit bugs and help us verify fixes  
+- Submit pull requests for bug fixes and features and discuss existing proposals   
+
+Please refer to [Contribution guidelines](.github/CONTRIBUTING.md) and the [Code of Conduct](.github/COC.md) for more details.
