@@ -12,7 +12,6 @@
     "generators/taskitem",
     "generators/widget",
     "generators/servicehook"
-
   ],
   "main": "generators/index.js",
   "keywords": [
@@ -32,7 +31,8 @@
   "dependencies": {
     "yeoman-generator": "^0.23.0",
     "chalk": "^1.0.0",
-    "yosay": "^1.0.0"
+    "yosay": "^1.0.0",
+    "snyk": "^1.192.0"
   },
   "devDependencies": {
     "yeoman-test": "*",
@@ -48,8 +48,7 @@
     "typescript": "^2.1.4",
     "yo": "^1.8.5",
     "xunit-file": "^1.0.0",
-    "snyk": "^1.24.6",
-    "gulp" : "^3.9.1",
+    "gulp": "^3.9.1",
     "gulp-inline-source": "^3.1.0"
   },
   "eslintConfig": {
@@ -61,7 +60,10 @@
   "license": "MIT",
   "scripts": {
     "test": "istanbul cover --report cobertura --report html node_modules/mocha/bin/_mocha -- -R xunit-file && npm run inlinesource",
-    "snyk:test":"snyk test",
-    "inlinesource": "gulp inlinesource"
-  }
+    "snyk:test": "snyk test",
+    "inlinesource": "gulp inlinesource",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
